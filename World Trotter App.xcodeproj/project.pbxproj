@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C1D82D226C677C300704039 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D82D426C677C300704039 /* Localizable.strings */; };
+		8C1D82DE26C67C1500704039 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D82DD26C67C1500704039 /* QuizViewController.swift */; };
+		8C1D82E326C6884600704039 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D82E226C6884600704039 /* ItemViewController.swift */; };
 		8C40681626A3250300B219EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40681526A3250300B219EB /* AppDelegate.swift */; };
 		8C40681826A3250300B219EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40681726A3250300B219EB /* SceneDelegate.swift */; };
 		8C40681A26A3250300B219EB /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40681926A3250300B219EB /* ConversionViewController.swift */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C1D82D826C677E200704039 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8C1D82D926C6783600704039 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8C1D82DD26C67C1500704039 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		8C1D82E226C6884600704039 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		8C40681226A3250300B219EB /* World Trotter App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Trotter App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C40681526A3250300B219EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C40681726A3250300B219EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +90,8 @@
 		8C40680926A3250300B219EB = {
 			isa = PBXGroup;
 			children = (
+				8C1D82E226C6884600704039 /* ItemViewController.swift */,
+				8C1D82D426C677C300704039 /* Localizable.strings */,
 				8C40684B26A46A2A00B219EB /* MapViewController.swift */,
 				8C40681426A3250300B219EB /* World Trotter App */,
 				8C40682B26A3250600B219EB /* World Trotter AppTests */,
@@ -108,6 +117,7 @@
 				8C40681726A3250300B219EB /* SceneDelegate.swift */,
 				8C40681926A3250300B219EB /* ConversionViewController.swift */,
 				8C40681B26A3250300B219EB /* Main.storyboard */,
+				8C1D82DD26C67C1500704039 /* QuizViewController.swift */,
 				8C40681E26A3250600B219EB /* Assets.xcassets */,
 				8C40682026A3250600B219EB /* LaunchScreen.storyboard */,
 				8C40682326A3250600B219EB /* Info.plist */,
@@ -238,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C40682226A3250600B219EB /* LaunchScreen.storyboard in Resources */,
+				8C1D82D226C677C300704039 /* Localizable.strings in Resources */,
 				8C40681F26A3250600B219EB /* Assets.xcassets in Resources */,
 				8C40681D26A3250300B219EB /* Main.storyboard in Resources */,
 			);
@@ -265,9 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C40681A26A3250300B219EB /* ConversionViewController.swift in Sources */,
+				8C1D82DE26C67C1500704039 /* QuizViewController.swift in Sources */,
 				8C40681626A3250300B219EB /* AppDelegate.swift in Sources */,
 				8C40681826A3250300B219EB /* SceneDelegate.swift in Sources */,
 				8C40684C26A46A2A00B219EB /* MapViewController.swift in Sources */,
+				8C1D82E326C6884600704039 /* ItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +316,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8C1D82D426C677C300704039 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1D82D826C677E200704039 /* es */,
+				8C1D82D926C6783600704039 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		8C40681B26A3250300B219EB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
