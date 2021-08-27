@@ -18,8 +18,8 @@ class QuizViewController : UIViewController{
     @IBOutlet var questionLabel : UILabel!
     @IBOutlet var answerLabel : UILabel!
     
-    let questions : [String] = ["What is Swift ?", "Where is the U.S capital located ?", "What is 7 + 7 ?"]
-    let answers : [String] = ["Apple's programming language", "Washington, D.C", "14"]
+    let questions : [String] = ["What is the capital of Montanta?", "Where is the U.S capital located ?", "Where is Chicago located?"]
+    let answers : [String] = ["Helena", "Washington, D.C", "Illinois"]
     var currentQuestionIndex : Int = 0
     
     @IBAction func showNextQuestion(_sender: UIButton){
